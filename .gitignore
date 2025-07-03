@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Dev containers
+.devcontainer/devcontainer.json.lock
+
+# Docker artifacts
+mlflow/mlruns/
+mlflow/mlflow.db
+data/
+logs/
+
+# Airflow temp files
+airflow/logs/
+airflow/__pycache__/
