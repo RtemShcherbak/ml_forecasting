@@ -1,0 +1,5 @@
+*
+# !.dockerignore
+!docker/app.Dockerfile
+!docker/airflow.Dockerfile
+!docker/mlflow.Dockerfile
